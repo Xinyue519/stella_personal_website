@@ -315,4 +315,51 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  width: 10%;
+  min-width: 10rem;
+  max-width: 25rem;
+}
+
+.main-nav {
+  display: none;
+}
+
+.hero {
+  background: linear-gradient(0.25turn, #BDCCA5, #CDEEF8);
+  color: rgb(255, 255, 255);
+  padding-top: 10em;
+  padding-bottom: 8em;
+}
+
+.hero-img {
+  display: none;
+}
+
+.grid {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
