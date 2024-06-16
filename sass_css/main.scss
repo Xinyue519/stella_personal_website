@@ -7,7 +7,7 @@
 //2. Vendor 
 @import 'vendor/normalize';
 //3. Base styles
-
+@import 'base/base.sass';
 //4. Layout 
-
+@import 'layout/header.sass', 'layout/hero.sass','layout/grid.sass';
 //5. Components
