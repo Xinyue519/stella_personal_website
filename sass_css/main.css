@@ -332,9 +332,72 @@ img {
   margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 0.75em;
+}
+
+h1:last-child, h2:last-child, h3:last-child,
+h4:last-child, h5:last-child, h6:last-child,
+p:last-child {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+.intro {
+  font-size: 1.5rem;
+}
+
+.title-large {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.title-large span {
+  font-weight: 300;
+}
+
+.project-big-title {
+  margin-top: 1em;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.project-title-underline {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 0;
+  text-align: center;
+  color: #97B883;
+  margin-bottom: 1em;
+}
+
+.project-title {
+  padding: 1em 1em 0em 1em;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.project-description {
+  padding: 0em 1em 0em 1em;
+  color: #828282;
+  line-height: 1;
+}
+
+.project-button {
+  padding: 0em 1em 1em 1em;
+}
+
 .main-header {
   position: absolute;
-  top: 0;
+  top: 1em;
   left: 0;
   right: 0;
 }
@@ -362,4 +425,41 @@ img {
 
 .grid {
   display: flex;
+}
+
+.project-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 2em;
+  padding: 50rem, 0rem, 50rem;
+}
+.project-box:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: auto;
+  height: 5%;
+  padding: 0.2em 0.2em;
+  border-radius: 15px;
+  display: inline-block;
+  background: #97B883;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.btn-project {
+  width: auto;
+  height: 5%;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  border-radius: 15px;
+  display: inline-block;
+  background: rgb(255, 255, 255);
+  border: 2px solid #25282B;
+  color: #25282B;
+  text-align: center;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
