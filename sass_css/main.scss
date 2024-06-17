@@ -6,8 +6,12 @@
 
 //2. Vendor 
 @import 'vendor/normalize';
+
 //3. Base styles
-@import 'base/base.sass';
+@import 'base/base.sass','base/typography.sass';
+
 //4. Layout 
-@import 'layout/header.sass', 'layout/hero.sass','layout/grid.sass';
+@import 'layout/header.sass', 'layout/hero.sass','layout/grid.sass','layout/projects.sass';
+
 //5. Components
+@import 'components/buttons.sass';
