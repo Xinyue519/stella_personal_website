@@ -9,18 +9,34 @@
     overflow: hidden
 
     transition: all ease-in-out 250ms
+    @media(min-width: 700px)
+        position: relative
+        flex: auto
+        background: none
+        margin-top: -1em
+        margin-left: 8em
+        text-align: right
+        left: 0
 
     ul
         display: flex
         flex-direction: column
         justify-content: space-around
         height: 100vh
-        list-style-type: none
 
+        @media(min-width: 700px)
+            flex-direction: row
+            height: auto
+    
     li 
         flex: 1 1 auto
         border-bottom: 1px solid rgba(0,0,0,0.15)
         display: flex
+        @media(min-width: 700px) 
+            border: none
+            text-align: right
+            display: inline-block
+
         
     
     a 
@@ -30,9 +46,15 @@
         display: flex 
         align-items: center
         justify-content: center
+        @media(min-width: 700px)
+            justify-content: flex-end
+            display: inline
 
         &:hover
             background: rgba(0,0,0,.1)
+            @media(min-width: 700px)
+                background: none
+                color: $accent
 
     &.is-open
         left: 0
@@ -45,6 +67,8 @@
     right: 1em
     top: 1em
     cursor: pointer  
+    @media(min-width: 700px)
+        display: none
 
 .hamburger, .hamburger::before, .hamburger::after   
     content: ''

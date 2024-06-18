@@ -3,6 +3,34 @@
     color: $text-inverse
     padding-top: 10em
     padding-bottom: 8em
+    
+    @media(min-width: 700px)
+        text-align: left
+        padding-bottom: 0em
 
-.hero-img  
-    display: none
+        &::before
+                content: ''
+                display: block
+                position: absolute
+                background: url(../img/heroBackground.png)
+                top: 6rem
+                bottom: 0
+                right: 0
+                left: 0
+                opacity: 0.2
+                background-repeat: no-repeat
+                background-size: contain
+        
+
+.hero-text
+    @media(min-width: 700px)
+        margin-top: 10em
+
+
+.hero-img
+    z-index: 2
+    @media(min-width: 700px)
+        max-width: 100%
+        
+
+        
