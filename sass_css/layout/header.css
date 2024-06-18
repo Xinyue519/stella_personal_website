@@ -6,11 +6,8 @@
 }
 
 .logo {
-  width: 10%;
+  margin-top: 1em;
+  width: 20%;
   min-width: 10rem;
   max-width: 25rem;
-}
-
-.main-nav {
-  display: none;
 }/*# sourceMappingURL=header.css.map */
