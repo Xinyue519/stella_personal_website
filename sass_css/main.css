@@ -363,11 +363,6 @@ h1 {
 .intro {
   font-size: 1.5rem;
 }
-@media (min-width: 700px) {
-  .intro {
-    font-size: 1rem;
-  }
-}
 
 .title-large {
   font-size: 2.5rem;
@@ -375,11 +370,6 @@ h1 {
 }
 .title-large span {
   font-weight: 300;
-}
-@media (min-width: 700px) {
-  .title-large {
-    font-size: 2rem;
-  }
 }
 
 .project-big-title {
@@ -461,7 +451,7 @@ h1 {
     display: block;
     position: absolute;
     background: url(../img/heroBackground.png);
-    top: 6rem;
+    top: 7rem;
     bottom: 0;
     right: 0;
     left: 0;
@@ -558,7 +548,7 @@ h1 {
     position: relative;
     flex: auto;
     background: none;
-    margin-top: -1em;
+    margin-top: -1.5em;
     margin-left: 8em;
     text-align: right;
     left: 0;
