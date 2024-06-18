@@ -13,12 +13,16 @@ h1
 
 .intro
     font-size: 1.5rem
+    @media(min-width: 700px)
+        font-size: 1rem
 
 .title-large
     font-size: 2.5rem
     font-weight: $font-black
     span
         font-weight: $font-light
+    @media(min-width: 700px)
+        font-size:2rem
 
 .project-big-title
     margin-top: 1em
@@ -29,14 +33,13 @@ h1
     color: $text-inverse
 
 .project-title-underline
-    font-size: 2.5rem
+    font-size: 2rem
     font-weight: $font-bold
     line-height:0
     text-align: center
     color: $accent
     margin-bottom: 1em
  
-
 .project-title
     padding: 1em 1em 0em 1em
     font-size: 2rem
@@ -50,3 +53,16 @@ h1
 
 .project-button
     padding: 0em 1em 1em 1em
+
+.title-footer
+    text-transform: uppercase
+    letter-spacing: 3px
+    line-height: 1
+
+    &::before, &::after
+        content: ''
+        display: block
+        height: 1px
+        background: $text-inverse
+        opacity: 0.25
+        margin: .75em 0

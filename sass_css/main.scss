@@ -11,8 +11,8 @@
 @import 'base/base.sass','base/typography.sass';
 
 //4. Layout 
-@import 'layout/header.sass', 'layout/hero.sass','layout/grid.sass','layout/projects.sass','layout/footer.sass',
-'layout/nav.sass';
+@import 'layout/header.sass', 'layout/hero.sass','layout/grid.sass','layout/projects.sass',
+'layout/nav.sass','layout/footer.sass';
 
 //5. Components
 @import 'components/buttons.sass';
