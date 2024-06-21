@@ -646,6 +646,10 @@ h1 {
   display: none;
 }
 
+.logo-return-home {
+  cursor: pointer;
+}
+
 footer {
   color: rgb(255, 255, 255);
   padding: 2.5em 0;
@@ -681,6 +685,15 @@ footer a {
   max-width: 30em;
 }
 
+.about-me {
+  padding-top: 10em;
+  padding-bottom: 8em;
+  margin: 8em 6em 0em 6em;
+  border-radius: 5em;
+  background: #CDEEF8;
+  position: absolute;
+}
+
 .btn {
   width: auto;
   height: 5%;
@@ -710,4 +723,8 @@ footer a {
 }
 .btn-project:hover {
   background: #dbe6d4;
+}
+
+.logo {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
